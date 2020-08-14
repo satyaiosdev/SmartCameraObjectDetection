@@ -16,6 +16,7 @@
 		B4D8034824E73B91003F12FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4D8034624E73B91003F12FA /* LaunchScreen.storyboard */; };
 		B4D8035324E73B92003F12FA /* SmartCameraObjectDetectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D8035224E73B92003F12FA /* SmartCameraObjectDetectionTests.swift */; };
 		B4D8035E24E73B92003F12FA /* SmartCameraObjectDetectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D8035D24E73B92003F12FA /* SmartCameraObjectDetectionUITests.swift */; };
+		B4D8036C24E73BD4003F12FA /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = B4D8036B24E73BD2003F12FA /* SqueezeNet.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		B4D8035924E73B92003F12FA /* SmartCameraObjectDetectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartCameraObjectDetectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4D8035D24E73B92003F12FA /* SmartCameraObjectDetectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartCameraObjectDetectionUITests.swift; sourceTree = "<group>"; };
 		B4D8035F24E73B92003F12FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4D8036B24E73BD2003F12FA /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				B4D8033824E73B8B003F12FA /* AppDelegate.swift */,
 				B4D8033A24E73B8B003F12FA /* SceneDelegate.swift */,
 				B4D8033C24E73B8B003F12FA /* ViewController.swift */,
+				B4D8036B24E73BD2003F12FA /* SqueezeNet.mlmodel */,
 				B4D8033E24E73B8B003F12FA /* Main.storyboard */,
 				B4D8034424E73B91003F12FA /* Assets.xcassets */,
 				B4D8034624E73B91003F12FA /* LaunchScreen.storyboard */,
@@ -264,6 +267,7 @@
 			files = (
 				B4D8033D24E73B8B003F12FA /* ViewController.swift in Sources */,
 				B4D8034324E73B8B003F12FA /* SmartCameraObjectDetection.xcdatamodeld in Sources */,
+				B4D8036C24E73BD4003F12FA /* SqueezeNet.mlmodel in Sources */,
 				B4D8033924E73B8B003F12FA /* AppDelegate.swift in Sources */,
 				B4D8033B24E73B8B003F12FA /* SceneDelegate.swift in Sources */,
 			);
